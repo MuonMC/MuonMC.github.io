@@ -99,20 +99,36 @@ body {
     margin-bottom: 0%;
 }
 
-.button-develop {
-    border-radius: 5px;
-    background-color: rgb(61, 59, 59);
+.button-round-generic {
+    background-color: white;
     border: none;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 14pt;
-    color:  white;
-    padding: 4px 16px;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     transition-duration: 0.4s;
+    border-radius: 5px;
+}
+
+.button-round-generic-container a{
+    color:black;
+}
+
+.button-round-generic-container a:hover{
+    color: white;
+}
+
+.button-round-generic:hover {
+    background-color: black;
+}
+
+.button-develop {
+    background-color: rgb(61, 59, 59);
+    color:  white;
 }
 
 .button-develop:hover {
@@ -120,51 +136,15 @@ body {
     color:  black;
 }
 
-.button-template {
-    border-radius: 5px;
-    background-color: white;
-    border: none;
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 14pt;
-    color:  black;
-    padding: 4px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition-duration: 0.4s;
-}
-
-.button-template:hover {
-    background-color: black;
-    color:  white;
-}
-
-
 .button-download {
-    border-radius: 5px;
-
     background-color: rgb(55, 55, 148);
-    border: none;
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 14pt;
     color:  white;
-    padding: 4px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition-duration: 0.4s;
 }
 
 .button-download:hover {
     background-color: white;
-    border: none;
     color:  black;
 }
-
 
 .big-image img {
     width: 100%;

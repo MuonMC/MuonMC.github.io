@@ -12,6 +12,8 @@ The project is in its early stages, so you can't really download it right now. B
 
 If you want to help with MuonMC development, hop in!
 
-<a href="https://github.com/MuonMC">
-    <button class="button-template">MuonMC on GitHub</button>
-</a>
+<div class="button-round-generic-container">
+    <a href="https://github.com/MuonMC" class="button-round-generic" >
+        MuonMC on GitHub
+    </a>
+</div>
