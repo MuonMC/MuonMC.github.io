@@ -4,7 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>404 Not Found</title>
+        <title>{{ page.title }}</title>
+
+        <meta property="og:url" content="https://muonmc.org/">
+        <meta property="og:title" content="{{ page.title }} | MuonMC">
+        <meta property="og:description" content="{{ page.description }}"/>
+        <meta property="og:site_name" content="MuonMC">
 
         <link rel="stylesheet" href="/css/styles.css">
 
@@ -34,9 +39,13 @@
             </a>
         </div>
 
-        <div class="main-body" style="text-align: center;">
-            <h1>Oops! Nothing here!</h1>
-            <p>Sadly, this page doesn't exist. Maybe you're looking for a <a href="/blog.html">Blog post</a>?</p>
+        <div class="main-body">
+            <div class="post-listings">
+                {% for post in site.posts %}
+                  <h2 style="margin-bottom: 0%;">&#x2022 <a href="{{ post.url }}">{{ post.title }}</a></h3>
+                  <p style="font-size: 10pt;">Publication date: {{ post.date }}</p>
+                {% endfor %}
+              </div>
         </div>
 
         <div class="footer">

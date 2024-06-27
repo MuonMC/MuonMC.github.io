@@ -4,7 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>404 Not Found</title>
+        <title>{{ page.title }}</title>
+
+        <meta property="og:url" content="https://muonmc.org/">
+        <meta property="og:title" content="{{ page.title }} | MuonMC">
+        <meta property="og:description" content="{{ page.description }}"/>
+        <meta property="og:site_name" content="MuonMC">
 
         <link rel="stylesheet" href="/css/styles.css">
 
@@ -34,9 +39,17 @@
             </a>
         </div>
 
-        <div class="main-body" style="text-align: center;">
-            <h1>Oops! Nothing here!</h1>
-            <p>Sadly, this page doesn't exist. Maybe you're looking for a <a href="/blog.html">Blog post</a>?</p>
+        <div class="big-image">
+            <img src="/images/backthematic.webp" alt="MuonMC thematic background image">
+            <div class="big-image-text">
+                <p>The modloader that works.</p>
+                <button class="button-download" type="button">Download</button>
+                <button class="button-develop">Develop</button>
+            </div>
+        </div>
+
+        <div class="main-body">
+            {{ content }}
         </div>
 
         <div class="footer">
