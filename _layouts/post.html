@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>{{ page.title | smartify }}</h1>
+{%- assign post = page -%}
+<sub>{{ page.date | date: site.theme_config.date_format }} - <i>{{ page.author | default: "MuonMC" | smartify }}</i></sub>
+
+<article>
+    {{ content | smartify }}
+</article>

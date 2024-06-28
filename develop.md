@@ -1,5 +1,5 @@
 ---
-layout: generic
+layout: default
 title: "Develop"
 description: "Make mods with Muon"
 ---

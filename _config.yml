@@ -18,18 +18,36 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-timezone: UTC
 title: MuonMC
 email: admin@muonmc.org
 description: >- # this means to ignore newlines until "baseurl:"
   MuonMC is a Minecraft modloader focused on stability and performance.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://muonmc.org" # the base hostname & protocol for your site, e.g. http://example.com
+markdown: kramdown
+timezone: America/New_York
+
+theme_config:
+  date_format: "%-d %B %Y %H:%M:%S %Z"
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /blog/:categories/:year/:month/:day/:slug/
+      author: "MuonMC"
+  -
+    scope:
+      path: "*.md"
+    values:
+      layout: default
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,7 +1,8 @@
 ---
 layout: index
-title: "Index"
+title: "MuonMC"
 description: "The modloader that works."
+permalink: /
 ---
 
 # MuonMC

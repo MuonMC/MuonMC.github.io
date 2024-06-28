@@ -1,5 +1,5 @@
 ---
-layout: generic
+layout: default
 title: "Downloads"
 description: "MuonMC downloads"
 ---
