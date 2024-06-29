@@ -16,7 +16,7 @@ Forked from the QuiltMC toolchain, Muon focuses only on the essentials, aiming t
 Making a mod for Muon is easy. You can quickly get up and running with our project generator, and get on to creating something by reading our comprehensive documentation.
 
 <div class="button-round-generic-container">
-    <a href="/develop.html" class="button-round-generic">
+    <a href="/develop" class="button-round-generic">
         Generate a Template
     </a>
 </div>
@@ -26,7 +26,7 @@ Making a mod for Muon is easy. You can quickly get up and running with our proje
 It's quite easy to download and install the latest version of Muon, simply click the button below and proceed to choose the version you want:
 
 <div class="button-round-generic-container">
-    <a href="/download.html" class="button-round-generic">
+    <a href="/download" class="button-round-generic">
         Download and Install
     </a>
 </div>
