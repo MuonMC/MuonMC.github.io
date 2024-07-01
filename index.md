@@ -30,3 +30,12 @@ It's quite easy to download and install the latest version of Muon, simply click
         Download and Install
     </a>
 </div>
+
+# Friendly Community
+MuonMC has a community of developers and users for sharing development tips and help as well as for showcasing new creations. Come join us!
+
+<div class="button-round-generic-container">
+    <a href="/discuss" class="button-round-generic">
+        Join Our Community
+    </a>
+</div>
